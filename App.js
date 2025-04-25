@@ -26,7 +26,7 @@ const App = () => {
   const [editMoyenne, setEditMoyenne] = useState(null);
   const [showPieChart, setShowPieChart] = useState(false);
 
-  const apiUrl = 'http://192.168.88.102:8000';
+  const apiUrl = 'http://192.168.88.100:8000';
 
   useEffect(() => {
     loadEtudiants();
